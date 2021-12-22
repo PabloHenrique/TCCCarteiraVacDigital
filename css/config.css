@@ -1,0 +1,20 @@
+:root {
+    --colorAzul1:rgb(1, 42, 74);
+    --colorAzul2:rgb(1, 79, 134);
+    --colorAzul3:rgb(42, 111, 151);
+    --colorAzul4:rgb(85, 128, 152);
+    --colorAzul5:rgb(171, 194, 217);
+    --colorAzul6:rgb(169, 214, 229);
+
+    /*
+    Cor 1: Azul Escuro
+    Cor 2: Azul Escuro Brilhante
+    Cor 3: Azul Escuro Acinzentado
+    Cor 4: Cinza Azulado
+    Cor 5: Azul claro
+    Cor 6: Azul bem claro
+    */
+
+    --colorAzul5_20: rgba(171, 194, 217, 0.205);
+    --cinza_ParaFonte: rgba(112, 112, 112);
+}

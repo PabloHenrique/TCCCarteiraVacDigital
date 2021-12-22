@@ -1,0 +1,173 @@
+body, html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+strong{
+    color: var(--colorAzul3);
+}
+#header {
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse {
+    width: auto;
+}
+
+#header .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    color: var(--colorAzul3);
+    border-bottom: solid 4px transparent;
+}
+
+/*Alteração na navBar - Justify Content Between*/
+#header .navbar-brand{
+    margin-right: 30rem;
+}
+
+#header .nav-link:hover{
+    border-bottom: solid 4px var(--colorAzul3);
+    color: var(--colorAzul3);
+}
+
+#header .navbar-collapse{
+    justify-items: end;
+}
+
+.container .menu-index{
+    margin-top: 2%; margin-bottom: 2%;
+    border: solid 0.5px var(--colorAzul5);
+    border-radius: 10px;
+    background-color: var(--colorAzul5_20);
+    display: flex;
+    padding-top: 3%; padding-bottom: 3%;
+}
+
+.container .sub-menu-index1{
+    background-color: var(--colorAzul5_20);
+    flex-direction: column;
+}
+
+.container .sub-menu-index2{
+    background-color: var(--colorAzul_20);
+}
+
+
+
+/* Estilização da tela de notificações */
+
+.not{
+    padding-left: 5%; padding-right: 5%;
+}
+#tabelaVacinas .container{
+    background-color: white;
+}
+
+.container .tabelasInfo{
+    display: flex;
+}
+
+.container .tabela2{
+    background-color: var(--colorAzul5_20);
+    flex-direction: column;
+}
+
+.container .tabela3{
+    padding: 4%;
+    padding-right: 12%;padding-left: 12%;
+}
+
+#tabelaVacinas .cinza{
+    color: var(--cinza_ParaFonte);
+    font-size: 18px;
+}
+
+#tabelaVacinas .table{
+    margin-top: 2%;
+    border: 2px solid var(--cinza_ParaFonte);
+}
+
+#tabelaVacinas td{
+    font-size: 13px;
+}
+
+#tabelaLegenda .container table{
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+#tabela .container .tabela3{
+    border-radius: 150%;
+}
+
+.table2{
+    background-color: var(--colorAzul5_20);
+}
+
+.tabela2, .info{
+    margin-top: 5%;
+}
+
+.info{
+    border: solid 1px;
+    background-color: var(--colorAzul5_20);
+    padding: 4%;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.infoP{
+    padding-top: 5%;
+}
+
+/* Estilização das telas de consulta (consulta.php e consultar.php)*/
+.container .info_consulta{
+    background-color: white;
+    height: fit-content;
+    border: 1px solid var(--cinza_ParaFonte);
+    padding-top: 4%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    padding-left:5%;
+    margin-top: 1%;
+    text-align: center;
+}
+.container .info_consulta .title{
+    font-size: 26px;
+    padding-bottom: 3%;
+}
+.container .info_consulta .form{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.info_consulta .form .inputs{
+    padding: 2%;
+}
+
+.form input{
+    height: 45px;
+    border: none;
+    width: 100%;
+    background-color: transparent;
+}
+
+.cons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 2%; margin-bottom: 2%;
+    background-color: var(--colorAzul5_20);
+}
+
+.icon-mdy{
+    color: rgb(169, 214, 229);
+    padding: 0px 8px;
+}
