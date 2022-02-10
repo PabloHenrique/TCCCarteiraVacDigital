@@ -53,3 +53,8 @@ Versão aprimorada do Projeto-TCC-Equipe.
 <p>
     <img src="./img-site/teladecadastro.png">
 </p>
+
+### Tela inicial + Funcionalidades
+<p>
+    <img src="./img-site/telainicio.png">
+</p>
